@@ -1,0 +1,16 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+}
+
+h1{
+    color: fuchsia;
+}
+
+.box {
+    background-color: rgb(233, 15, 113)	;
+    padding: 40px;
+    margin: 10px;
+}
