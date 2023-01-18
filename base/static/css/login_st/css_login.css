@@ -1,16 +1,80 @@
 
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: teal;
+/*DIV PRINCIAPAL*/
+div.boxf{
+    background-color: #87CEFA;
+    width: 550px;
+    height: 550px;
+    margin-top: 200px;
+    margin-left:700px ;
+    border: 2px solid #000000;
+    border-radius: 20px;
 }
 
+/* TITULOS*/
 h1{
-    color: fuchsia;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left:230px ;
 }
 
-.box {
-    background-color: rgb(233, 15, 113)	;
-    padding: 40px;
-    margin: 10px;
+h2{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 25px;
+    margin-left:150px ;
+}
+
+div.traco{
+    
+    width: 520px;
+    height: 4px;
+    margin-top: 25px;
+    margin-left:10px ;
+    border-radius: 2px;
+}
+
+/*LOGIN*/
+div.nome{
+    
+    margin-top: 70px;
+    margin-left:50px ;
+   
+   
+}
+label.nome_lbl{
+   
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+     
+}
+
+.tex{
+    border-radius: 5px;
+    width: 400px;
+    height: 25px;
+    font-size: 20px;
+}
+
+/*SENHA*/
+div.senha{
+    
+    margin-top: 40px;
+    margin-left:50px ;
+}
+
+div.buttonac{
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.bt{
+    color:#f7f6f6;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid #000000;
+
 }
