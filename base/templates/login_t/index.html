@@ -14,31 +14,41 @@
     <link rel="stylesheet" href="{% static 'css/login_st/css_login.css' %}">
     <link rel="stylesheet" href="{% static 'css/login_st/css_repetido/corbg.css'%}">
     <link rel="stylesheet" href="{% static 'css/login_st/css_repetido/corfe.css'%}">
+
+    <!-- JS-->
+    <link rel="stylesheet" href="{% static 'js/loginjs/js_fe.js' %}">
 </head>
 <body class="Navy_bg">
 
-    <div class = "boxf">
+            <!--PRIMEIRA DIV-->
+            <div class = "boxf">
 
-        <h1 class="h1 Navy_fe">LOGIN</h1>
-        <h2 class="h2 Navy_fe">Nova Aliança - ABA PAI</h2>
+                <h1 class="h1 Navy_fe">LOGIN</h1>
+                <h2 class="h2 Navy_fe">Nova Aliança - ABA PAI</h2>
+        
+                <div class="traco Navy_bg"></div>
+        
+                <div class="nome Navy_fe">
+                    <label class="nome_lbl">NOME:</label>
+                    <input type="text"  class="tex">
+                </div>
+        
+                <div class="senha Navy_fe">
+                    <label class="nome_lbl">SENHA:</label>
+                    <input type="password" class="tex">
+                </div>
+        
+                <div class="buttonac">
+                    <button type="submit" class="bt efeito Navy_bg GhostWhite_fe">ACESSAR</button>
+                </div>
+                
+                <div class="esq">
+                    <button class="bt_esq efeito Navy_bg GhostWhite_fe">ESQUECEU</button>
+                </div>
+                
+            </div>
 
-        <div class="traco Navy_bg"></div>
-
-        <div class="nome Navy_fe">
-            <label class="nome_lbl">NOME:</label>
-            <input type="text"  class="tex">
-        </div>
-
-        <div class="senha Navy_fe">
-            <label class="nome_lbl">SENHA:</label>
-            <input type="password" class="tex">
-        </div>
-
-        <div class="buttonac">
-            <button type="submit" class="bt Navy_bg">ACESSAR</button>
-        </div>
-
-    </div>
+            
        
 </body>
 </html>
